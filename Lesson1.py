@@ -1,6 +1,6 @@
 # VARIABLES AND DATA TYPES
 
-# Print "Hello, World!"
+## Print "Hello, World!"
 
 print("Hello, world!")
 message = "Hello, world!"
@@ -8,11 +8,11 @@ print(message)
 message = "Hola, mundo!"
 print(message)
 
-# Understanding errors
+## Understanding errors
 
 # Error: print mesage
 
-# Strings
+## Strings
 
 print("It's a string")
 print('This is also a string')
@@ -28,38 +28,41 @@ print("Hello " + first_name + " " + last_name)
 msg = "bienvenidos"
 print(msg[::2])
 
-# Numbers
+## Numbers
 
 print(3 + 3 / 2 - 1 * 0)
 print(3 ** 2)
 
 # LISTS
 
-# Accessing elements
+## Accessing elements
 
 menu = ["pizza", "spaghetti", "burger"]
 print(menu[1].title())
 print(menu)
 
-# Adding items
+## Adding items
 
 menu.append("salad")
 menu.insert(0, "soup")
 print(menu)
 
-# Deleting items
+## Deleting items
+
 del menu[1]
 menu.remove("soup")
 popped = menu.pop()
 print(menu)
 print(popped)
 
-# Sorting items
+## Sorting items
+
 menu.sort(reverse=False)
 print(menu)
 # Error: print(menu[10])
 
-# Working with lists
+## Working with lists
+
 appliances = ["magic toaster", "rainbow oven", "unicorn fridge"]
 for appliance in appliances:
     print("I am a " + appliance)
@@ -71,7 +74,8 @@ for index in range(1, 5):
 print(sum(num_list))
 print(max(num_list))
 
-# Tuples
+# TUPLES
+
 tuple_ex = (999, 1000)
 # Error: tuple_ex[0] = 0
 for num in tuple_ex:
